@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Paragraphs</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Internal CSS */
+        .paragraph {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+        
+        /* BEM Naming Convention */
+        .paragraph--intro {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .paragraph--highlighted {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 15px;
+        }
+        
+        .paragraph--quote {
+            font-style: italic;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <h1>Styled Paragraphs</h1>
+
+    <p class="paragraph paragraph--intro">This is an introductory paragraph.</p>
+
+    <p class="paragraph paragraph--highlighted">This paragraph is highlighted.</p>
+
+    <p class="paragraph paragraph--quote">"This paragraph contains a quote."</p>
+
+    <p class="paragraph">This is a regular paragraph.</p>
+</body>
+</html>
